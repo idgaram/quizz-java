@@ -5,6 +5,8 @@ class Main{
 
 
         service.playQuizz();
+        service.displayScore();
+
         
     }
 }
