@@ -62,6 +62,21 @@ public class Question {
         this.answer = answer;
     }
 
+    @Override
+    public String toString() {
+        StringBuilder sb = new StringBuilder();
+        sb.append("Question{");
+        sb.append("id=").append(id);
+        sb.append(", question=").append(question);
+        sb.append(", opt1=").append(opt1);
+        sb.append(", opt2=").append(opt2);
+        sb.append(", opt3=").append(opt3);
+        sb.append(", opt4=").append(opt4);
+        sb.append(", answer=").append(answer);
+        sb.append('}');
+        return sb.toString();
+    }
+
 
 
     }

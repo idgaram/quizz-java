@@ -12,10 +12,15 @@ public class QuestionService {
     
    }
    
-   public void displayQuestions(){
+   public void playQuizz(){
 
 for (Question q : questions) {
+   System.out.println("question number: " + q.getId());
    System.out.println(q.getQuestion());
+   System.out.println(q.getOpt1());
+   System.out.println(q.getOpt2());
+   System.out.println(q.getOpt3());
+   System.out.println(q.getOpt3());
 }
    //  System.out.println(questions[0].getQuestion());
    }
